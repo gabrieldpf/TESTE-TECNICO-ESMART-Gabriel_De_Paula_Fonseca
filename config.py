@@ -22,5 +22,5 @@ PEXELS_API_KEY = os.getenv("PEXELS_API_KEY")
 if not PEXELS_API_KEY:
     raise RuntimeError(
         "PEXELS_API_KEY nao encontrada. Crie um arquivo .env com "
-        "PEXELS_API_KEY=sBjUPcamo9IG540peMUAMhW2Rezq28f1DLeQsqVBs3GJSwYwiIcJUZY3"
+        "PEXELS_API_KEY= CHAVE DA API AQUI"
     )
